@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#009999</color>
+    <color name="primaryColorOP80">#CB009999</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="roleColorB">#F2994A</color>
+    <color name="roleColorA">#F2C94C</color>
+    <color name="roleColorS">#9B51E0</color>
+    <color name="infoButtonColor">#2F80ED</color>
+</resources>
