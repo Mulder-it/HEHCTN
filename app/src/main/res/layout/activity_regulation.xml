@@ -10,16 +10,499 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:gravity="center"
         android:orientation="vertical">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Bouton valve "/>
+            android:text="Regulation"
+            android:textColor="@color/primaryColor"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:textSize="30dp"
+            android:shadowRadius="2"/>
 
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:tag="BTNVALVE1">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Bouton valve 1"
+                android:textColor="@color/primaryColor"
+                android:layout_marginRight="18dp"
+                android:textSize="18dp"/>
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:checked="false"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:tag="BTNVALVE2">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Bouton valve 2"
+                android:textColor="@color/primaryColor"
+                android:layout_marginRight="18dp"
+                android:textSize="18dp"/>
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:checked="false"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:tag="BTNVALVE3">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Bouton valve 3"
+                android:textColor="@color/primaryColor"
+                android:layout_marginRight="18dp"
+                android:textSize="18dp"/>
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:checked="false"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:tag="BTNVALVE4">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Bouton valve 4"
+                android:textColor="@color/primaryColor"
+                android:layout_marginRight="18dp"
+                android:textSize="18dp"/>
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:checked="false"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:tag="BTNMANUAL">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Bouton Manuel"
+                android:textColor="@color/primaryColor"
+                android:layout_marginRight="18dp"
+                android:textSize="18dp"/>
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:checked="false"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:tag="BTNVLD">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Locale/Distant"
+                android:textColor="@color/primaryColor"
+                android:layout_marginRight="18dp"
+                android:textSize="18dp"/>
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:checked="false"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:tag="VALVE1">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Valve 1"
+                android:textColor="@color/primaryColor"
+                android:layout_marginRight="18dp"
+                android:textSize="18dp"/>
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:checked="false"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:tag="VALVE2">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Valve 2"
+                android:textColor="@color/primaryColor"
+                android:layout_marginRight="18dp"
+                android:textSize="18dp"/>
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:checked="false"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:tag="VALVE3">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Valve 3"
+                android:textColor="@color/primaryColor"
+                android:layout_marginRight="18dp"
+                android:textSize="18dp"/>
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:checked="false"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:tag="VALVE4">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Valve 4"
+                android:textColor="@color/primaryColor"
+                android:layout_marginRight="18dp"
+                android:textSize="18dp"/>
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:checked="false"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:tag="LIQUIDLEVEL">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Niveau Liquide"
+                android:textColor="@color/primaryColor"
+                android:layout_marginRight="18dp"
+                android:textSize="18dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textColor="@color/primaryColor"
+                android:layout_marginRight="18dp"
+                android:textSize="18dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:tag="SETPOINT">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Set Point"
+                android:textColor="@color/primaryColor"
+                android:layout_marginRight="18dp"
+                android:textSize="18dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textColor="@color/primaryColor"
+                android:layout_marginRight="18dp"
+                android:textSize="18dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:tag="MANUAL">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Manuel"
+                android:textColor="@color/primaryColor"
+                android:layout_marginRight="18dp"
+                android:textSize="18dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textColor="@color/primaryColor"
+                android:layout_marginRight="18dp"
+                android:textSize="18dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:tag="PILOTWORD">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Pilot word"
+                android:textColor="@color/primaryColor"
+                android:layout_marginRight="18dp"
+                android:textSize="18dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textColor="@color/primaryColor"
+                android:layout_marginRight="18dp"
+                android:textSize="18dp"/>
+        </TableRow>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="DB2"
+                android:textColor="@color/primaryColor"
+                android:layout_marginRight="18dp"
+                android:textSize="18dp"/>
+            <EditText
+                android:id="@+id/et_regulation_db2"
+                android:inputType="numberSigned"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:digits="01"
+                android:hint="00000000"/>
+            <Button
+                android:tag="DB2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/button_round"
+                android:text="Update"
+                android:inputType="number"
+                android:onClick="OnClickUpdateByteManager"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="DB3"
+                android:textColor="@color/primaryColor"
+                android:layout_marginRight="18dp"
+                android:textSize="18dp"/>
+            <EditText
+                android:id="@+id/et_regulation_db3"
+                android:inputType="numberSigned"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:digits="01"
+                android:hint="00000000"/>
+            <Button
+                android:tag="DB3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/button_round"
+                android:text="Update"
+                android:inputType="number"
+                android:onClick="OnClickUpdateByteManager"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="DB24"
+                android:textColor="@color/primaryColor"
+                android:layout_marginRight="18dp"
+                android:textSize="18dp"/>
+            <EditText
+                android:id="@+id/et_regulation_db24"
+                android:inputType="numberSigned"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:digits="01"
+                android:hint="00000000"/>
+            <Button
+                android:tag="DB24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/button_round"
+                android:text="Update"
+                android:inputType="number"
+                android:onClick="OnClickUpdateByteManager"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="DB26"
+                android:textColor="@color/primaryColor"
+                android:layout_marginRight="18dp"
+                android:textSize="18dp"/>
+            <EditText
+                android:id="@+id/et_regulation_db26"
+                android:inputType="numberSigned"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:digits="01"
+                android:hint="00000000"/>
+            <Button
+                android:tag="DB26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/button_round"
+                android:text="Update"
+                android:inputType="number"
+                android:onClick="OnClickUpdateByteManager"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="DB28"
+                android:textColor="@color/primaryColor"
+                android:layout_marginRight="18dp"
+                android:textSize="18dp"/>
+            <EditText
+                android:id="@+id/et_regulation_db28"
+                android:inputType="numberSigned"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:digits="01"
+                android:hint="00000000"/>
+            <Button
+                android:tag="DB28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/button_round"
+                android:text="Update"
+                android:inputType="number"
+                android:onClick="OnClickUpdateByteManager"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="DB30"
+                android:textColor="@color/primaryColor"
+                android:layout_marginRight="18dp"
+                android:textSize="18dp"/>
+            <EditText
+                android:id="@+id/et_regulation_db30"
+                android:inputType="numberSigned"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:digits="01"
+                android:hint="00000000"/>
+            <Button
+                android:tag="DB30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/button_round"
+                android:text="Update"
+                android:inputType="number"
+                android:onClick="OnClickUpdateByteManager"/>
+        </TableRow>
+        </LinearLayout>
     </LinearLayout>
-
-
-
-
 </ScrollView>
