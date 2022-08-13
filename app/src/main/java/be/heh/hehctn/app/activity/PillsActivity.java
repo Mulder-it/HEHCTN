@@ -1,4 +1,4 @@
-package be.heh.hehctn.activity;
+package be.heh.hehctn.app.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,11 +6,11 @@ import android.os.Bundle;
 
 import be.heh.hehctn.R;
 
-public class MainActivity extends AppCompatActivity {
+public class PillsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_pills);
     }
 }

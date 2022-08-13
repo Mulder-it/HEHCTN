@@ -3,7 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="be.heh.hehctn">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
+        android:name=".app.activity.AppContext"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -14,7 +18,28 @@
         android:theme="@style/Theme.HEHCTN"
         tools:targetApi="31">
         <activity
-            android:name=".activity.MainActivity"
+            android:name=".app.activity.RegulationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".app.activity.PillsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".app.activity.SupervisionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".app.activity.UserlistActivity"
+            android:exported="false" />
+        <activity
+            android:name=".app.activity.ProfilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".app.activity.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".app.activity.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".app.activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

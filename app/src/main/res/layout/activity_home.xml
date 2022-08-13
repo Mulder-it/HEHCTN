@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".app.activity.HomeActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/heh_catech_network"
+        android:textColor="@color/primaryColor"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        android:shadowRadius="2"/>
+    <Button
+        android:id="@+id/bt_home_supervision"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/supervision"
+        android:layout_marginTop="5dp"
+        android:onClick="onMainClickManager"/>
+
+    <Button
+        android:id="@+id/bt_home_users"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/users"
+        android:layout_marginTop="5dp"
+        android:onClick="onMainClickManager"/>
+
+</LinearLayout>

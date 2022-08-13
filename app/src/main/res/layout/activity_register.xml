@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="25dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".app.activity.RegisterActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textColor="@color/primaryColor"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        android:shadowRadius="2"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:text="Login"
+        android:textSize="16dp"
+        android:background="@color/primaryColor"/>
+
+    <EditText
+        android:id="@+id/et_register_email"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:hint="Email"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:text="Password"
+        android:textSize="16dp"
+        android:background="@color/primaryColor"/>
+
+    <EditText
+        android:id="@+id/et_register_password"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:hint="Password"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:text="Confirm Password"
+        android:textSize="16dp"
+        android:background="@color/primaryColor"/>
+
+    <EditText
+        android:id="@+id/et_register_password_confirm"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:hint="Password"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:text="Name"
+        android:textSize="16dp"
+        android:background="@color/primaryColor"/>
+
+    <EditText
+        android:id="@+id/et_register_name"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+
+        android:hint="Name"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:text="Firstname"
+        android:textSize="16dp"
+        android:background="@color/primaryColor"/>
+
+    <EditText
+        android:id="@+id/et_register_firstname"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+
+        android:hint="Firstname"/>
+
+    <Button
+        android:id="@+id/bt_register_create"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="create"
+        android:layout_margin="15dp"
+        android:layout_marginTop="5dp"
+        android:onClick="onMainClickManager"/>
+</LinearLayout>

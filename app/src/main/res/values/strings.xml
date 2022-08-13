@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">HEH CaTech Network</string>
+    <string name="supervision">Supervision</string>
+    <string name="heh_catech_network">HEH CaTech Network</string>
+    <string name="users">Users</string>
+    <string name="register">register</string>
+
 </resources>
