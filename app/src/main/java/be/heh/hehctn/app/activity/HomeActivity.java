@@ -38,7 +38,7 @@ public class HomeActivity extends AppCompatActivity {
                 break;
 
             case R.id.bt_home_users:
-                Intent intentUserList = new Intent(this, ProfilActivity.class);
+                Intent intentUserList = new Intent(this, UserlistActivity.class);
                 startActivity(intentUserList);
                 break;
         }

@@ -32,7 +32,7 @@ public class ProfilActivity extends AppCompatActivity {
            int spinnerPosition = adapter.getPosition(CompareValue);
            role_spinner.setSelection(spinnerPosition);
        }
-/*
+
         if (ctx.getUserRole().equals("SuperAdmin")){
             role_spinner.setEnabled(true);
 
@@ -42,7 +42,7 @@ public class ProfilActivity extends AppCompatActivity {
             if (ctx.getUserRole().equals("BASIC")){
                 role_spinner.setSelection(3);
             }
-        }*/
+        }
 
 
 

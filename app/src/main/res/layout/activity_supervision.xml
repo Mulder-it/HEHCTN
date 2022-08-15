@@ -46,7 +46,7 @@
     <TableRow
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp">
+        android:layout_marginBottom="40dp">
 
         <EditText
             android:id="@+id/et_supervision_ip"
@@ -80,7 +80,7 @@
     <TableRow
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp">
+        android:layout_marginBottom="20dp">
 
         <Button
             android:id="@+id/bt_supervision_infopills"
@@ -116,8 +116,5 @@
             android:text="Regulation"
             android:onClick="onMainClickManager"/>
     </TableRow>
-
-
-
 
 </LinearLayout>

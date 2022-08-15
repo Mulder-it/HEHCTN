@@ -10,6 +10,11 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical">
 
@@ -23,6 +28,19 @@
             android:textSize="30dp"
             android:shadowRadius="2"/>
 
+        <TextView
+            android:id="@+id/t_regulation_plc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/li_regulation_read">
 
         <TableRow
             android:layout_width="wrap_content"
@@ -312,11 +330,14 @@
                 android:textSize="18dp"/>
         </TableRow>
 
+    </LinearLayout>
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:id="@+id/li_regulation_write">
 
         <TableRow
             android:layout_width="wrap_content"
@@ -343,7 +364,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
-                android:background="@drawable/button_round"
                 android:text="Update"
                 android:inputType="number"
                 android:onClick="OnClickUpdateByteManager"/>
@@ -374,7 +394,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
-                android:background="@drawable/button_round"
                 android:text="Update"
                 android:inputType="number"
                 android:onClick="OnClickUpdateByteManager"/>
@@ -405,10 +424,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
-                android:background="@drawable/button_round"
                 android:text="Update"
                 android:inputType="number"
-                android:onClick="OnClickUpdateByteManager"/>
+                android:onClick="OnClickUpdateWordManager"/>
         </TableRow>
 
         <TableRow
@@ -436,10 +454,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
-                android:background="@drawable/button_round"
                 android:text="Update"
                 android:inputType="number"
-                android:onClick="OnClickUpdateByteManager"/>
+                android:onClick="OnClickUpdateWordManager"/>
         </TableRow>
 
         <TableRow
@@ -467,10 +484,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
-                android:background="@drawable/button_round"
                 android:text="Update"
                 android:inputType="number"
-                android:onClick="OnClickUpdateByteManager"/>
+                android:onClick="OnClickUpdateWordManager"/>
         </TableRow>
 
         <TableRow
@@ -498,10 +514,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
-                android:background="@drawable/button_round"
                 android:text="Update"
                 android:inputType="number"
-                android:onClick="OnClickUpdateByteManager"/>
+                android:onClick="OnClickUpdateWordManager"/>
         </TableRow>
         </LinearLayout>
     </LinearLayout>

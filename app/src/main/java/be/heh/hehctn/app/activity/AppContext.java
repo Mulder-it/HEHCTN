@@ -21,7 +21,7 @@ public class AppContext extends Application {
     public void onCreate(){
         super.onCreate();
         idLoginConnected = -1;
-        userRole = "BASIC";
+        userRole = "READ";
 
     }
 }
