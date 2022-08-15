@@ -603,7 +603,7 @@
                     android:layout_marginLeft="10dp"
                     android:text="Update"
                     android:inputType="number"
-                    android:onClick="OnClickUpdateByteManager"/>
+                    android:onClick="OnClickUpdateWordManager"/>
             </TableRow>
         </LinearLayout>
     </LinearLayout>
