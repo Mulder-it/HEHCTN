@@ -2,8 +2,8 @@
 <resources>
     <string-array name="role_array">
         <item>SuperAdmin</item>
-        <item>Advanced</item>
-        <item>Basic</item>
+        <item>WRITE</item>
+        <item>READ</item>
     </string-array>
 
 </resources>

@@ -6,7 +6,7 @@ import be.heh.hehctn.simanticS7.S7Client;
 public class PlcWriter implements Runnable {
 
     private S7Client s7Client;
-    byte[] data;
+    static byte[] data;
     String sIp;
     int iRack;
     int iSlot;
@@ -39,7 +39,7 @@ public class PlcWriter implements Runnable {
         }
     }
 
-    public void setWrite(int db, byte value){
+    public static void setWrite(int db, byte value){
         data[db] = value;
     }
 

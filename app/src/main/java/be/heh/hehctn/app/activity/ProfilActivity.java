@@ -39,8 +39,8 @@ public class ProfilActivity extends AppCompatActivity {
         }
         else {
             role_spinner.setEnabled(false);
-            if (ctx.getUserRole().equals("BASIC")){
-                role_spinner.setSelection(3);
+            if (ctx.getUserRole().equals("READ")){
+                role_spinner.setSelection(2);
             }
         }
 
