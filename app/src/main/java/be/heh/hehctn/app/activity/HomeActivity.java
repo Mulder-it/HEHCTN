@@ -19,6 +19,8 @@ public class HomeActivity extends AppCompatActivity {
 
     private Button bt_supervision;
     private Button bt_users;
+    private AppContext ctx;
+    String CompareValue;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +29,22 @@ public class HomeActivity extends AppCompatActivity {
 
         bt_supervision = (Button) findViewById(R.id.bt_home_supervision);
         bt_users = (Button) findViewById(R.id.bt_home_users);
+
+        ctx = (AppContext) this.getApplicationContext();
+        CompareValue = ctx.getUserRole();
+
+        if(CompareValue !=null){
+            if (CompareValue.equals("SUPERUSER")){
+                bt_users.setVisibility(View.VISIBLE);
+            }
+            else{
+                bt_users.setVisibility(View.GONE);
+            }
+        }
+
+
+
+
     }
     public void onMainClickManager(View v) {
 
@@ -35,6 +53,11 @@ public class HomeActivity extends AppCompatActivity {
             case R.id.bt_home_supervision:
                 Intent intentSupervion = new Intent(this, SupervisionActivity.class);
                 startActivity(intentSupervion);
+                break;
+
+            case R.id.bt_home_profil:
+                Intent intentProfil = new Intent(this, ProfilActivity.class);
+                startActivity(intentProfil);
                 break;
 
             case R.id.bt_home_users:

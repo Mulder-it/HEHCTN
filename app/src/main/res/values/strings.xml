@@ -4,5 +4,8 @@
     <string name="heh_catech_network">HEH CaTech Network</string>
     <string name="users">Users</string>
     <string name="register">register</string>
+    <string name="HomeLabel">Home</string>
+    <string name="ProfilLabel">Profil</string>
+
 
 </resources>

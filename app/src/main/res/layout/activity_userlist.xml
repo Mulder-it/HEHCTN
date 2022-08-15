@@ -19,11 +19,20 @@
         android:textSize="30sp"
         android:shadowRadius="2"/>
 
+    <TextView
+        android:id="@+id/tv_userslist_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        tools:ignore="MissingConstraints" />
+
 
     <ListView
-        android:id="@+id/lv_data_list"
+        android:layout_below="@id/tv_userslist_data"
+        android:id="@+id/lv_userlist_list"
         android:layout_width="match_parent"
         android:gravity="center"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"/>
 
 </LinearLayout>
